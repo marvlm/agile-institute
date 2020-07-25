@@ -112,12 +112,12 @@ h2 {
 /* line 38, ../scss/base/_base.scss */
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.5;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 3px;
-  color: #090909;
+  color: #0F4C81;
 }
 
 /* line 48, ../scss/base/_base.scss */
