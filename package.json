@@ -1,0 +1,23 @@
+{
+  "name": "agile-institute-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvlm/agile-institute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvlm/agile-institute/issues"
+  },
+  "homepage": "https://github.com/marvlm/agile-institute#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
