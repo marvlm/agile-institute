@@ -26,49 +26,22 @@ description: "Agile Institute es una red de profesionales, que forma y acompaña
                         <!-- <div class="col-sm-5 col-md-7 text-center"> <img src="assets/images/Agile-Institute.png" class="animated fadeInUp delay-4 img-responsive" alt="banner"> </div> <div class="col-sm-5 text-center"> <h3 class="animated fadeInUp delay-3">Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital. </h3> </div> -->
                     </div>
                 </div>
-
-                <div class="item banner-item">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <h1 class="animated fadeInUp delay-2">Te invitamos
-                                <br>
-                                a vivir la agilidad.</h1>
-                            <p class="animated fadeInUp delay-3">Creemos que la Agilidad es un mundo que tienes que estar dispuesto a CREAR, y no sólo a replicar, para eso necesitas considerar un fuerte desarrollo desde las personas.
-                            </p>
-                        </div>
-                        <div class="col-sm-5 text-center hidden-xs">
-                            <img src="assets/images/banner-carousel/browser.png" class="animated fadeInUp delay-4 img-responsive" alt="banner">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item banner-item">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <h1 class="animated fadeInUp delay-2">Construye tu
-                                <br>Ruta Ágil
-                            </h1>
-                            <p class="animated fadeInUp delay-3">Acompañamos a personas y organizaciones en una aplicación práctica de la agilidad, por medio de rutas de transformación que incluyen el desarrollo como persona, como equipo y en las Prácticas de Trabajo Ágil.</p>
-                        </div>
-                        <div class="col-sm-5 text-center hidden-xs">
-                            <img src="assets/images/banner-carousel/monitor.png" class="animated fadeInUp delay-4 img-responsive" alt="banner">
+                {% for element in collections.carousel %}
+                    <div class="item banner-item">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <h1 class="animated fadeInUp delay-2">{{ element.data.title_1 }}
+                                    <br>
+                                    {{ element.data.title_2 }}</h1>
+                                <p class="animated fadeInUp delay-3">{{ element.data.description }}
+                                </p>
+                            </div>
+                            <div class="col-sm-5 text-center hidden-xs">
+                                <img src="{{ element.data.image }}" class="animated fadeInUp delay-4 img-responsive" alt="banner">
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="item banner-item">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <h1 class="animated fadeInUp delay-2">Únete a
-                                <br>
-                                Nuestra Comunidad.</h1>
-                            <p class="animated fadeInUp delay-3">Somos una Red de Profesionales entusiasmados por ayudar a trabajar de manera altamente efectiva y práctica en Agilidad.</p>
-                        </div>
-                        <div class="col-sm-5 text-center hidden-xs">
-                            <img src="assets/images/banner-carousel/mobile.png" class="animated fadeInUp delay-4 img-responsive" alt="banner">
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
 
             </div>
         </div>
