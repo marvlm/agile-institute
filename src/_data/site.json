@@ -1,0 +1,12 @@
+{
+    "title_a": "Agile ",
+    "title_b": "Institute",
+    "url": "https://agile-institute.netlify.app/",
+    "baseurl": "",
+    "repo": "https://github.com/marvlm/agile-institute",
+    "comments": false,
+    "author": {
+      "name": "Marvin López Mendoza"
+    },
+    "og_locale": "es"
+  }
