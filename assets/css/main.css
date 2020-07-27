@@ -443,7 +443,8 @@ p {
 /*address*/
 /* line 89, ../scss/modules/_sections.scss */
 .address {
-  background-color: #d44420;
+  background-color: #fff;
+  color: #0F4C81;
 }
 /* line 92, ../scss/modules/_sections.scss */
 .address h1 {
@@ -452,13 +453,13 @@ p {
 
 /* line 97, ../scss/modules/_sections.scss */
 .address-table {
-  color: #fff;
-  border-top: 1px solid #d00136;
+  color: #0F4C81;
+  border-top: 1px solid #ff7500;
   margin-bottom: 60px;
 }
 /* line 102, ../scss/modules/_sections.scss */
 .address-table td {
-  border-bottom: 1px solid #d00136;
+  border-bottom: 1px solid #ff7500;
 }
 
 /*email us*/
