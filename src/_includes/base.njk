@@ -53,25 +53,10 @@
 
             {% endblock postcontent %}
 
-            <!-- CTA section starts -->
-            <section id="cta" class="cta page">
-                <div class="container wow fadeInUp">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h1>Déjanos guiarte ...</h1>
-                        </div>
-                        <div class="col-sm-6">
-                            <button class="btn btn-block custom-button">Contáctanos</button>
-                        </div>
-                    </div>
-                    <!-- End: .row -->
-                </div>
-                <!-- End: .container-->
-            </section>
-            <!-- CTA section ends -->
+            {% include cta.njk %}
 
             {% include footer.njk %}
-            
+
         </main>
 
         <!-- SCRIPTS -->
