@@ -41,53 +41,7 @@
         <!-- End: Preloader section -->
 
         <main>
-            <header id="header">
-
-                <!-- TOP NAVIGATION -->
-                <nav class="top-navigation-bar navbar navbar-default navbar-fixed-top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navigation-bar" aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <a class="navbar-brand" href="index.html">{{ site.title_a }}<span class="thin">
-                                            {{ site.title_b }}</span></a>
-                                    <!-- <img src="/assets/images/logo-navbar.png" alt="logo"> -->
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="top-navigation-bar">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li class="active">
-                                            <a href="/">Inicio</a>
-                                        </li>
-                                        <li>
-                                            <a href="/about">Quiénes Somos</a>
-                                        </li>
-                                        <li>
-                                            <a href="/route">Ruta Ágil</a>
-                                        </li>
-                                        <li>
-                                            <a href="/events">Eventos</a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">Contacto</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.container-->
-                </nav>
-            </header>
+            {% include header.njk %}
 
             {% block content %}
 
