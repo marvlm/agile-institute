@@ -2,7 +2,7 @@
 <html lang="es">
 
     <head>        
-        {% include heade.njk %}
+        {% include base/head.njk %}
     </head>
 
     <body>
@@ -14,7 +14,7 @@
         <!-- End: Preloader section -->
 
         <main>
-            {% include header.njk %}
+            {% include base/header.njk %}
 
             {% block content %}
 
@@ -28,11 +28,11 @@
 
             {% include cta.njk %}
 
-            {% include footer.njk %}
+            {% include base/footer.njk %}
 
         </main>
 
-        {% include scripts.njk %}
+        {% include base/scripts.njk %}
 
     </body>
 
