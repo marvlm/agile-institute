@@ -152,22 +152,24 @@
         <div class="col-md-12 main-heading">
             <h1>{{ motive }}</h1>
         </div>
-        <div class="col-md-12">
-            <div class="main-timeline">
-            {% for value in values %}  
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon">
-                            <i class="fa fa-globe"></i>
-                        </div>
-                        <h3 class="title">{{ value }}</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                        </p>
-                    </a>
-                </div> 
-            {% endfor %}               
-            </div>
+        <div class="service clearfix">
+          <div class="col-md-12">
+              <div class="main-timeline">
+              {% for value in values %}  
+                  <div class="timeline">
+                      <a href="#" class="timeline-content">
+                          <div class="timeline-icon">
+                              <i class="fa fa-globe"></i>
+                          </div>
+                          <h3 class="title">{{ value }}</h3>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
+                          </p>
+                      </a>
+                  </div> 
+              {% endfor %}               
+              </div>
+          </div> 
         </div>
     </div>
   </div>
