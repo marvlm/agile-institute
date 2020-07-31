@@ -1,6 +1,6 @@
 ---
 id: 3
 title: "Aprende y practica"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+description: "Conoce conceptos, marcos y herramientas y sus aplicaciones prácticas en entornos reales."
 image: "/assets/images/route/3-aprende.png"
 ---

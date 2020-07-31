@@ -1,6 +1,6 @@
 ---
 id: 6
 title: "Crece y refuerza tus conocimientos"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+description: "Accede a nuestra comunidad de prácticas y comparte con otros colegas para enriquecer tu aprendizaje. Participa de Webinars, Meetups, talks, y refuerza tus conocimientos."
 image: "/assets/images/route/6-crece.png"
 ---
