@@ -10,7 +10,6 @@ values: [
  "Convergencia entre visión de empresa y de  equipo.",
  "Las herramientas al servicio del equipo.",
  "Mindset de trabajo colaborativo."]
-}
 ---
 
 Concebidos por el objetivo de trabajar con personas y compañías,
