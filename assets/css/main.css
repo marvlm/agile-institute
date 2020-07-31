@@ -410,6 +410,10 @@ p {
 /* line 55, ../scss/modules/_sections.scss */
 .about-banner {
   background-color: #fff;
+  background-image: url(../images/ainstitute_tr.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 100%;
 }
 
 /* line 59, ../scss/modules/_sections.scss */
@@ -427,6 +431,7 @@ p {
 /* line 71, ../scss/modules/_sections.scss */
 .about-us {
   background-color: #0F4C81;
+  color: #fff;
 }
 /* line 74, ../scss/modules/_sections.scss */
 .about-us h1 {
