@@ -19,17 +19,13 @@
         <div class="row">
             <div class="about-wrapper">
                 <div class="col-md-6">
-                    <h1>About Us ..</h1>
+                <h1>{{ motive }}</h1>
+                  {% for value in values %}                  
                     <div class="section-snippet">
-                        <span class="snippet-heading">21 December,1991</span>
-                        <span>eshtablished In</span>
+                        <span class="snippet-heading">{{ value }}</span>
+                        <span>...</span>
                     </div>
-
-                    <div class="section-snippet">
-                        <span class="snippet-heading">10 energetic</span>
-                        <span>team members</span>
-                    </div>
-
+                  {% endfor %}                  
                 </div>
                 <div class="col-md-6">
                     {{content | safe }}

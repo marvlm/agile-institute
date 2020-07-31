@@ -431,6 +431,7 @@ p {
 /* line 74, ../scss/modules/_sections.scss */
 .about-us h1 {
   margin-bottom: 40px;
+  color: #fff;
 }
 
 /* team members */

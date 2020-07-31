@@ -2,7 +2,15 @@
 layout: "layouts/simple.njk" 
 title: "Somos" 
 name: "The Agile Institute"
+motive: "Nos mueve y motiva:"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
+values: [
+ "Desarrollo personal, de equipos y como sus habilidades se potencian.",
+ "Trabajo colaborativo y flexible para afrontar los cambios.",
+ "Convergencia entre visión de empresa y de  equipo.",
+ "Las herramientas al servicio del equipo.",
+ "Mindset de trabajo colaborativo."]
+}
 ---
 
 Concebidos por el objetivo de trabajar con personas y compañías,
