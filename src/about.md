@@ -1,6 +1,7 @@
 --- 
 layout: "layouts/simple.njk" 
-title: "Somos" 
+title: "Quienes somos"
+slogan: "Agilidad es un Mundo que tienes que estar dispuesto a crear, no sólo replicar." 
 name: "The Agile Institute"
 motive: "Nos mueve y motiva:"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
