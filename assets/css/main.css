@@ -419,12 +419,16 @@ p {
 /* line 59, ../scss/modules/_sections.scss */
 .about-heading {
   position: absolute;
-  top: 25%;
+  top: 30%;
 }
 
 /* line 64, ../scss/modules/_sections.scss */
 .about-heading h3 {
   margin-bottom: 10px;
+}
+
+.about-heading span {
+  font-family: 'Rajdhani', sans-serif;
 }
 
 /*about-us*/

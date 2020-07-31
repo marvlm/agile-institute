@@ -1,7 +1,6 @@
 --- 
 layout: "layouts/intro.njk" 
 title: "Agile Institute" 
-name: "The Agile Institute"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
 what_we_do: "Qué hacemos y cómo lo hacemos"
 route: "La Ruta ágil"
