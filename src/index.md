@@ -3,9 +3,9 @@ layout: "layouts/intro.njk"
 title: "Agile Institute" 
 name: "The Agile Institute"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
-what-we-do: "Qué hacemos y cómo lo hacemos"
+what_we_do: "Qué hacemos y cómo lo hacemos"
 route: "La Ruta ágil"
-route-description: "Conoce nuestra Ruta Ágil, un marco de trabajo que está pensado para que puedas aprender y aplicar la agilidad de manera más efectiva."
+route_description: "Conoce nuestra Ruta Ágil, un marco de trabajo que está pensado para que puedas aprender y aplicar la agilidad de manera más efectiva."
 ---
 
 Acompañamos a personas y organizaciones en una aplicación práctica de la agilidad, por medio de rutas de transformación que incluyen el desarrollo como persona, como equipo y en las Prácticas de Trabajo Ágil.
