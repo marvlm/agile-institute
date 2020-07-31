@@ -2,15 +2,15 @@
 <html lang="es">
 
     <head>        
-        {% include base/head.njk %}
+        {% include "base/head.njk" %}
     </head>
 
     <body>
 
-        {% include base/preloader.njk %}
+        {% include "base/preloader.njk" %}
 
         <main>
-            {% include base/header.njk %}
+            {% include "base/header.njk" %}
 
             {% block content %}
 
@@ -22,13 +22,13 @@
 
             {% endblock postcontent %}
 
-            {% include cta.njk %}
+            {% include "cta.njk" %}
 
-            {% include base/footer.njk %}
+            {% include "base/footer.njk" %}
 
         </main>
 
-        {% include base/scripts.njk %}
+        {% include "base/scripts.njk" %}
 
     </body>
 
