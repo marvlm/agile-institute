@@ -5,6 +5,10 @@ description: "Agile Institute es una red de profesionales, que forma y acompaña
 what_we_do: "Qué hacemos y cómo lo hacemos"
 route: "La Ruta ágil"
 route_description: "Conoce nuestra Ruta Ágil, un marco de trabajo que está pensado para que puedas aprender y aplicar la agilidad de manera más efectiva."
+eleventyNavigation:
+  key: "Inicio"
+  url: "/"
+  order: 1
 ---
 
 Acompañamos a personas y organizaciones en una aplicación práctica de la agilidad, por medio de rutas de transformación que incluyen el desarrollo como persona, como equipo y en las Prácticas de Trabajo Ágil.

@@ -1,5 +1,5 @@
 --- 
-layout: "layouts/simple.njk" 
+layout: "layouts/about.njk" 
 title: "Quienes somos"
 motive: "Nos mueve y motiva:"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
@@ -9,6 +9,10 @@ values: [
  "Convergencia entre visión de empresa y de  equipo.",
  "Las herramientas al servicio del equipo.",
  "Mindset de trabajo colaborativo."]
+eleventyNavigation:
+  key: "Quiénes somos"
+  url: "/about/"
+  order: 2
 ---
 
 Concebidos por el objetivo de trabajar con personas y compañías,
