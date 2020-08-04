@@ -4,7 +4,7 @@ title: "Agile Institute"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
 what_we_do: "Qué hacemos y cómo lo hacemos"
 route: "La Ruta ágil"
-route_description: "Conoce nuestra Ruta Ágil, un marco de trabajo que está pensado para que puedas aprender y aplicar la agilidad de manera más efectiva."
+route_description: "Conoce nuestra Ruta Ágil, una guía pensada para que aprendas y apliques la agilidad de manera más efectiva."
 eleventyNavigation:
   key: "Inicio"
   url: "/"
