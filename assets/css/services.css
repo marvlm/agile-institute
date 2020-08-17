@@ -13,6 +13,11 @@ section .section-title{
 }
 #what-we-do{
 	background:#ffffff;
+  background-color: #fff;
+  background-image: url(../images/ainstitute_tr.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 100%;
 }
 #what-we-do .card{
 	padding: 1rem!important;

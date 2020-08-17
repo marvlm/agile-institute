@@ -12,7 +12,7 @@ values: [
 eleventyNavigation:
   key: "Servicios"
   url: "/services/"
-  order: 2
+  order: 3
 ---
 
 Concebidos por el objetivo de trabajar con personas y compañías,
