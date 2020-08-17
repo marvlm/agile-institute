@@ -19,13 +19,13 @@
 			<p class="text-center text-muted h5">Having and managing a correct marketing strategy is crucial in a fast moving market.</p>
 			<div class="row mt-5">
 
-        {% for element in collections.services %}
+        {% for service in collections.services %}
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<div class="card">
-						<div class="card-block {{ element.data.icon }}">
-							<h3 class="card-title">{{ element.data.title }}</h3>
-							<p class="card-text">{{ element.data.description }}</p>
-							<a href="#" title="Saber más" class="read-more" >Saber más<i class="fa fa-angle-double-right ml-2"></i></a>
+						<div class="card-block {{ service.data.icon }}">
+							<h3 class="card-title">{{ service.data.title }}</h3>
+							<p class="card-text">{{ service.data.description }}</p>
+							<a href="{{ service.data.url }}" title="Saber más" class="read-more" >Saber más<i class="fa fa-angle-double-right ml-2"></i></a>
 						</div>
 					</div>
 				</div>
