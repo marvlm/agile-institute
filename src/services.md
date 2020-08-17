@@ -1,5 +1,5 @@
 --- 
-layout: "layouts/about.njk" 
+layout: "layouts/service.njk" 
 title: "Servicios"
 motive: "Nos mueve y motiva:"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 

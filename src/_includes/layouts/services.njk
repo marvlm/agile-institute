@@ -1,0 +1,66 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="/assets/css/timeline.css">
+
+<section id="about-banner" class="about-banner">
+    <div class="container">
+        <div class="about-banner-wrapper full-height">
+            <div class="about-heading">
+                <h3 class="wow fadeInUp" data-wow-delay="0.3s">{{ site.slogan }}</h3>
+                <h1 class="wow fadeInUp" data-wow-delay="0.6s">{{ site.title_a }}<span class="thin">
+                              {{ site.title_b }}</span></h1>
+            </div>
+        </div>        
+    </div>
+</section>
+
+<section id="about-us" class="about-us page">
+    <div class="container wow fadeInUp" data-wow-delay="0.3s">
+        <div class="row">
+            <div class="about-wrapper">
+                <div class="col-md-6">
+                <h1>{{ title }}</h1>                                  
+                </div>
+                <div class="col-md-6">
+                    {{content | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services page">
+  <div class="container wow fadeInUp">
+    <div class="row">
+        <!-- Feature item -->
+        <div style="
+            display: flex;
+
+            /* OPTIONAL: Reverse the order of image and content */
+            flex-direction: row-reverse;
+
+            /* OPTIONAL: Spacing between items */
+            margin: 16px 0;
+        ">
+            <!-- Image -->
+            <div style="
+                width: 128px;
+            ">
+                ...
+            </div>
+
+            <!-- Right side -->
+            <div style="
+                /* Take the remaining width */
+                flex: 1;
+            ">
+                ...
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
