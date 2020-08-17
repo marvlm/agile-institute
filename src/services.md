@@ -10,8 +10,8 @@ values: [
  "Las herramientas al servicio del equipo.",
  "Mindset de trabajo colaborativo."]
 eleventyNavigation:
-  key: "Quiénes somos"
-  url: "/about/"
+  key: "Servicios"
+  url: "/services/"
   order: 2
 ---
 
