@@ -1,8 +1,8 @@
 ---
-id: 3
-title: "Special title 3"
+id: 1
+title: "Formación"
 description: "With supporting text below as a natural lead-in to additional content."
 image: "/assets/images/banner-carousel/invite.png"
-icon: "block-3"
-url: "/services/3-service/"
+icon: "block-1"
+url: "/services/cursos/"
 ---

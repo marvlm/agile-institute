@@ -1,8 +1,8 @@
 ---
-id: 2
-title: "Special title 2"
+id: 3
+title: "Comunidad"
 description: "With supporting text below as a natural lead-in to additional content."
 image: "/assets/images/banner-carousel/invite.png"
-icon: "block-2"
-url: "/services/2-service/"
+icon: "block-3"
+url: "/services/comunidad/"
 ---
