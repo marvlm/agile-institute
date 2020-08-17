@@ -38,7 +38,7 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #007b5e !important;
+	color: #ff7500 !important;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -55,7 +55,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #007b5e;
+    color: #ff7500;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
