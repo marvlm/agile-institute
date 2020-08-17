@@ -22,9 +22,9 @@
         {% for element in collections.services %}
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<div class="card">
-						<div class="card-block {{ icon }}">
-							<h3 class="card-title">{{ title }}</h3>
-							<p class="card-text">{{ description }}</p>
+						<div class="card-block {{ element.data.icon }}">
+							<h3 class="card-title">{{ element.data.title }}</h3>
+							<p class="card-text">{{ element.data.description }}</p>
 							<a href="#" title="Saber más" class="read-more" >Saber más<i class="fa fa-angle-double-right ml-2"></i></a>
 						</div>
 					</div>
