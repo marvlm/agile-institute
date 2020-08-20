@@ -27,14 +27,14 @@
                     <div class="item banner-item {% if element.data.id == 0 %} active {% endif %}">
                         <div class="row {% if element.data.id == 0 %} intro-banner {% endif %}">
                             <div class="col-sm-7">
-                                <h1 class="animated fadeInUp delay-2">{{ element.data.title_1 }}
+                                <h1 class="animated fadeInUp delay-2 {% if element.data.id == 0 %} hidden-xs {% endif %}">{{ element.data.title_1 }}
                                     <br>
                                     {{ element.data.title_2 }}</h1>
                                 <p class="animated fadeInUp delay-3">{{ element.data.description }}
                                 </p>
                             </div>
                             <div class="col-sm-5 text-center">
-                                <img src="{{ element.data.image }}" class="animated fadeInUp delay-4 img-responsive" alt="banner">
+                                <img src="{{ element.data.image }}" class="animated fadeInUp delay-4 img-responsive" style="max-width:100%;" alt="banner">
                             </div>
                         </div>
                     </div>
