@@ -401,6 +401,10 @@ p {
   font-size: 25px;
 }
 
+.who-are-we h2 {
+  color: #ff7500;
+}
+
 
 /* line 38, ../scss/modules/_sections.scss */
 .services {

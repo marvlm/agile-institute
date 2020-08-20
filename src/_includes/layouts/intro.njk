@@ -72,7 +72,7 @@
                 <h1>{{ route }}</h1>
                 <h3>
                     {{ route_description }}
-                </h3>
+                </h3>                
             </div>
             {% for step in collections.steps %}
                 <div class="col-md-12">
@@ -87,6 +87,7 @@
                             <div class="col-sm-8 col-md-7">
                                 <a href="{{ step.data.url }}"><h2>{{ step.data.title }}</h2></a>
                                 <p>{{ step.data.description }}</p>
+                                <a href="{{ step.data.url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Saber más</a>
                             </div>
                         </div>
                     </div>
