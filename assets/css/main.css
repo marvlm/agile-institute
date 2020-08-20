@@ -444,6 +444,10 @@ p {
   color: #fff;
 }
 
+.about-wrapper p {
+  font-size: 25px;
+}
+
 /* team members */
 /* line 82, ../scss/modules/_sections.scss */
 .team-members {
