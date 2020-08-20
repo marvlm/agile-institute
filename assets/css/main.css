@@ -390,6 +390,11 @@ p {
   margin-bottom: 40px;
 }
 
+.who-are-we p {
+  font-size: 25px;
+}
+
+
 /* line 38, ../scss/modules/_sections.scss */
 .services {
   background-color: #fff;
@@ -807,6 +812,10 @@ table tr td:first-of-type {
   /* line 40, ../scss/layout/responsive/_tablet.scss */
   .service-number {
     font-size: 140px;
+  }
+
+  .service p {
+    font-size: 20px;
   }
 
   /* line 48, ../scss/layout/responsive/_tablet.scss */
