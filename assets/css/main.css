@@ -376,6 +376,7 @@ p {
 /* line 22, ../scss/modules/_sections.scss */
 .banner p {
   max-width: 470px;
+  font-size: 25px;
 }
 
 /*who are we section*/
@@ -527,7 +528,7 @@ p {
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
   position: absolute;
-  top: 20%;
+  top: 15%;
 }
 /* line 38, ../scss/modules/_components.scss */
 /*.banner-item img {
@@ -723,14 +724,14 @@ table tr td:first-of-type {
 .delay-2 {
   -webkit-animation-delay: 900ms;
   -moz-animation-delay: 900ms;
-  animation-delay: 900ms;
+  animation-delay: 1500ms;
 }
 
 /* line 15, ../scss/modules/_animations.scss */
 .delay-3 {
   -webkit-animation-delay: 1200ms;
   -moz-animation-delay: 1200ms;
-  animation-delay: 1200ms;
+  animation-delay: 1500ms;
 }
 
 /* line 21, ../scss/modules/_animations.scss */
