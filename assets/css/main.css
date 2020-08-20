@@ -379,6 +379,13 @@ p {
   font-size: 25px;
 }
 
+.intro-banner {
+  background-color: #fff;
+  background-image: url(../images/Agile-Institute.png);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+}
+
 /*who are we section*/
 /* line 30, ../scss/modules/_sections.scss */
 .who-are-we {
