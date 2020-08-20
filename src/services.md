@@ -1,6 +1,7 @@
 --- 
 layout: "layouts/services.njk" 
 title: "Servicios"
+subtitle: "Te acompañamos en tu viaje de transformación de distintas maneras."
 motive: "¿Cómo lo hacemos?"
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
 values: [

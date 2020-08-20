@@ -8,7 +8,7 @@
     <div class="container">
         <div class="about-banner-wrapper full-height">
             <div class="about-heading">
-                <h3 class="wow fadeInUp" data-wow-delay="0.3s">{{ site.slogan }}</h3>
+                <h3 class="wow fadeInUp" data-wow-delay="0.3s">{{ subtitle }}</h3>
                 <h1 class="wow fadeInUp" data-wow-delay="0.6s">{{ title }}</h1>
             </div>
         </div>        
@@ -16,7 +16,7 @@
 
 		<div class="container-fluid">
 			<h2 class="section-title mb-2 h1">{{ motive }}</h2>
-			<p class="text-center text-muted h5">Having and managing a correct marketing strategy is crucial in a fast moving market.</p>
+			<p class="text-center text-muted h5">{{ description }}</p>
 			<div class="row mt-5">
 
         {% for service in collections.services %}
