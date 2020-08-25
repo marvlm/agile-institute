@@ -377,6 +377,7 @@ p {
 .banner p {
   max-width: 470px;
   font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .intro-banner {
