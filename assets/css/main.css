@@ -833,6 +833,7 @@ table tr td:first-of-type {
 
   .service p {
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   /* line 48, ../scss/layout/responsive/_tablet.scss */

@@ -13,6 +13,6 @@ eleventyNavigation:
 
 Acompañamos a personas y organizaciones en una aplicación práctica de la agilidad, por medio de rutas de transformación que incluyen el desarrollo como persona, como equipo y en las Prácticas de Trabajo Ágil.
                 
-## [Te invitamos a recorrer nuestra Ruta Ágil.](/about/)
+## [Descubre más de nosotros...](/about/)
                 
 
