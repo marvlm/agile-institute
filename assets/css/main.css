@@ -399,11 +399,16 @@ p {
 }
 
 .who-are-we p {
-  font-size: 25px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .who-are-we h2 {
   color: #ff7500;
+}
+
+.who-are-we a:hover {
+  color:#fff;
 }
 
 

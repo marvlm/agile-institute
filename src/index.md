@@ -12,9 +12,7 @@ eleventyNavigation:
 ---
 
 Acompañamos a personas y organizaciones en una aplicación práctica de la agilidad, por medio de rutas de transformación que incluyen el desarrollo como persona, como equipo y en las Prácticas de Trabajo Ágil.
-
-Entendemos que adentrarse en el mundo de la agilidad es algo que ocurre paso a paso y que cada persona u organización podrá recorrer un camino distinto, por eso nuestra principal preocupación es acompañarte en todas las etapas de ese camino.
                 
-## Te invitamos a recorrer nuestra Ruta Ágil.
+## [Te invitamos a recorrer nuestra Ruta Ágil.](/about/)
                 
 
