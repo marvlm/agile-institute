@@ -929,3 +929,29 @@ table tr td:first-of-type {
 .footer-text a:hover {
   text-decoration: none;
 }
+
+#footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#footer span.thin {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#footer span.name {
+  font-family: 'Merienda', cursive;
+}
+
+#copyright {
+  background: #0b0b0b;
+  text-align: center;
+}
+
+#copyright p {
+  color: #fff;
+}
+
+.hand:before {
+  content: "\270D";
+}

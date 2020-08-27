@@ -7,50 +7,25 @@
                         <div class="col-xs-6">
                             <div class="footer-link footer-link-1">
                                 <h4>Sobre nosotros</h4>
+                                {% set navPages = collections.all | eleventyNavigation %}
                                 <ul>
-                                    <li>
-                                        <a href="#">View courses</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Discuss</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Suggest course</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">View courses</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Discuss</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Suggest course</a>
-                                    </li>
+                                    {%- for entry in navPages %}
+                                        <li>
+                                            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                                        </li>
+                                    {%- endfor %}
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xs-6">
                             <div class="footer-link footer-link-2">
-                                <h4>Cualificaciones</h4>
+                                <h4>Servicios</h4>
                                 <ul>
-                                    <li>
-                                        <a href="#">View courses</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Discuss</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Suggest course</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">View courses</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Discuss</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Suggest course</a>
-                                    </li>
+                                    {% for service in collections.services %}
+                                        <li>
+                                            <a href="{{ service.data.url }}">{{ service.data.title }}</a>
+                                        </li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +33,10 @@
                 </div>
                 <div class="col-md-5 col-md-offset-1 footer-text">
                     <p>{{ site.slogan }}</p>
-                    <span>&copy; 2020 The Agile Institute</span>
+                    &copy;
+                    {{ site.year }}
+                    <span class="name">{{ site.title_a }}</span>
+                    <span class="thin">{{ site.title_b }}</span>
                 </div>
             </div>
         </div>
@@ -66,3 +44,15 @@
     </div>
     <!-- End: .container-->
 </footer>
+<div id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="site-info">
+                    <p>
+                        <span class="hand"></span> Crafted by <a href="https://www.imarv.in/">imarv.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
