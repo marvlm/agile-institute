@@ -9,12 +9,11 @@ section .section-title{
 	text-align:center;
 	color:#0F4C81;
 	margin-bottom:50px;
-	text-transform:uppercase;
+	font-family: 'Merienda', cursive;
 }
 #what-we-do{
 	background:#ffffff;
   background-color: #fff;
-  background-image: url(../images/ainstitute_tr.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right 100%;
@@ -88,4 +87,5 @@ section .section-title{
 
 #what-we-do p {
 	font-size: 23px;
+	font-family: 'Montserrat', sans-serif;
 }

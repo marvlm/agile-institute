@@ -433,7 +433,6 @@ p {
 /* line 55, ../scss/modules/_sections.scss */
 .about-banner {
   background-color: #fff;
-  background-image: url(../images/ainstitute_tr.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right 100%;
