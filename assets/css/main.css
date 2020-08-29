@@ -927,6 +927,7 @@ table tr td:first-of-type {
 
 .footer-text a:hover {
   text-decoration: none;
+  color: #fff;
 }
 
 #footer p {
