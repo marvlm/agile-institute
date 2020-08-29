@@ -9,7 +9,7 @@ values: [
  "Trabajo colaborativo y flexible para afrontar los cambios.",
  "Convergencia entre visión de empresa y de  equipo.",
  "Las herramientas al servicio del equipo.",
- "Mindset de trabajo colaborativo."]
+ "Cultura de mejora continua."]
 eleventyNavigation:
   key: "Quiénes somos"
   url: "/about/"
