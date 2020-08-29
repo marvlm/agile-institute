@@ -25,7 +25,7 @@
                 </div> #}
                     {% for element in collections.carousel %}
                         <div class="item banner-item {% if element.data.id == 0 %} active {% endif %}">
-                            <div class="row {% if element.data.id == 0 %} intro-banner {% endif %}">
+                            <div class="row {% if element.data.id == 0 %}  {% endif %}">
                                 <div class="col-sm-7">
                                     <h1 class="animated fadeInUp delay-2 {% if element.data.id == 0 %} hidden-xs {% endif %}">{{ element.data.title_1 }}
                                         <br>
