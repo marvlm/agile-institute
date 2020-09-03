@@ -959,3 +959,9 @@ table tr td:first-of-type {
 .hand:before {
   content: "\270D";
 }
+
+.btn-warning {
+    color: #fff;
+    background-color: #f;
+    border-color: #d58512;
+}
