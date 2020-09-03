@@ -11,8 +11,7 @@ eleventyNavigation:
   order: 1
 ---
 
-Consideramos que son más valiosas las aplicaciones prácticas que el conocimiento teórico como el que se ofrecen con las certificaciones que existen actualmente en el mercado. Por eso NO CERTIFICAMOS, si no que ACOMPAÑAMOS a personas y organizaciones a través de RUTAS ÁGILES de tranformación que les lleven a cumplir sus objetivos, potenciar sus resultados y que aprendan a aprender.               
+Consideramos que son más valiosas las aplicaciones prácticas que el conocimiento teórico como el que se ofrecen con las certificaciones que existen actualmente en el mercado. Por eso NO CERTIFICAMOS, si no que GUÍAMOS y ACOMPAÑAMOS a personas y organizaciones a través de RUTAS ÁGILES de tranformación que les lleven a cumplir sus objetivos, potenciar sus resultados y que aprendan a aprender.               
 
-<a href="/about/" class="btn btn-warningbtn-lg active" role="button" aria-pressed="true">Conoce más de nosotros...</a>
+<a href="/about/" class="btn btn-warning  btn-lg active" role="button" aria-pressed="true">Conoce más de nosotros...</a>
                 
-
