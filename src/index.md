@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 1
 ---
 
-Acompañamos a personas y organizaciones en una aplicación práctica de la agilidad, por medio de rutas de transformación que incluyen el desarrollo como persona, como equipo y en las Prácticas de Trabajo Ágil.
+Consideramos que son más valiosas las aplicaciones prácticas que el conocimiento teórico como el que se ofrecen con las certificaciones que existen actualmente en el mercado. Por eso NO CERTIFICAMOS, si no que ACOMPAÑAMOS a personas y organizaciones a través de RUTAS ÁGILES de tranformación que les lleven a cumplir sus objetivos, potenciar sus resultados y que aprendan a aprender. 
                 
 ## [Descubre más de nosotros...](/about/)
                 
