@@ -3,7 +3,7 @@ layout: "layouts/services.njk"
 title: "Servicios"
 subtitle: "Te acompañamos en tu viaje de transformación de distintas maneras."
 motive: "¿Cómo lo hacemos?"
-description: "Ayudamos a personas y organizaciones a poner en práctica conocimientos y prácticas ágiles. Brindamos servicios a personas, organizaciones y colegas con coaching, tutoría y capacitación utilizando un conjunto de herramientas que hemos recopilado y utilizado en nuestra experiencia." 
+description: "Hemos creado nuestros servicios para personas, organizaciones y colegas que quieran inicarse o aprender más sobre agilidad, a través de coaching, mentoring, capacitación y un conjunto de herramientas que hemos recopilado y utilizado en nuestra experiencia." 
 image: "/assets/images/ainstitute_services.png"
 values: [
  "Desarrollo personal, de equipos y como sus habilidades se potencian.",
