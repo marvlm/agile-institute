@@ -36,6 +36,25 @@
 		</div>	
 	</section>
 	<!-- /Services section -->
-  
+
+  <section id="about-us" class="about-us page">
+    <div class="container wow fadeInUp" data-wow-delay="0.3s">
+        <div class="row">
+            <div class="about-wrapper">
+                {% for service in collections.services %}
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<div class="card">
+						<div class="card-block {{ service.data.icon }}">
+							<h3 class="card-title">{{ service.data.title }}</h3>
+							<p class="card-text">{{ service.data.description }}</p>
+							<a href="{{ service.data.url }}" title="Saber más" class="read-more" >Saber más<i class="fa fa-angle-double-right ml-2"></i></a>
+						</div>
+					</div>
+				</div>
+        {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
 
 {% endblock content %}
