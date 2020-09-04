@@ -89,3 +89,8 @@ section .section-title{
 	font-size: 23px;
 	font-family: 'Montserrat', sans-serif;
 }
+
+#what-we-do .card-title {
+	font-family: 'Merienda', cursive;
+}
+
