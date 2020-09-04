@@ -2,41 +2,60 @@
 
 {% block content %}
 
-<link rel="stylesheet" href="/assets/css/services.css">
+	<link rel="stylesheet" href="/assets/css/services.css">
 
-<section style="background-image: url({{ image }});  background-repeat: no-repeat; background-attachment: fixed; background-position: right 100%;">
-    <div class="container">
-        <div class="about-banner-wrapper full-height">
-            <div class="about-heading">
-                <h3 class="wow fadeInUp" data-wow-delay="0.3s">{{ subtitle }}</h3>
-                <h1 class="wow fadeInUp" data-wow-delay="0.6s">{{ title }}</h1>
-            </div>
-        </div>        
-    </div>	
+	<section style="background-image: url({{ image }}); background-repeat: no-repeat; background-attachment: fixed; background-position: right 100%;">
+		<div class="container">
+			<div class="about-banner-wrapper full-height">
+				<div class="about-heading">
+					<h3 class="wow fadeInUp" data-wow-delay="0.3s">{{ subtitle }}</h3>
+					<h1 class="wow fadeInUp" data-wow-delay="0.6s">{{ title }}</h1>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- /Services section -->
 
-  <section id="what-we-do" class="page">
-    		<div class="container-fluid">
+	<section id="what-we-do" class="page">
+		<div class="container-fluid wow fadeInUp about-banner-wrapper full-height" data-wow-delay="0.3s">
 			<h1 class="section-title mb-2 h1">{{ motive }}</h1>
 			<p class="text-center text-muted h5">{{ description }}</p>
 			<div class="row mt-5">
-
-        {% for service in collections.services %}
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-					<div class="card">
-						<div class="card-block {{ service.data.icon }}">
-							<h3 class="card-title">{{ service.data.title }}</h3>
-							<p class="card-text">{{ service.data.description }}</p>
-							<a href="{{ service.data.url }}" title="Saber más" class="read-more" >Saber más<i class="fa fa-angle-double-right ml-2"></i></a>
-						</div>
+				{% for service in collections.services %}
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+{# 						<a href="{{ service.data.url }}"> #}
+							<div class="card">
+								<div class="card-block {{ service.data.icon }}">
+									<h3 class="card-title">{{ service.data.title }}</h3>
+									<p class="card-text">{{ service.data.description }}</p>
+									<a href="#service-{{ service.data.id }}" title="Saber más" class="btn btn-primary white-text read-more">
+										Saber más<i class="fa fa-angle-double-right ml-2"></i>
+									</a>
+								</div>
+							</div>
+					{# 	</a> #}
 					</div>
-				</div>
-        {% endfor %}
-				
+				{% endfor %}
 			</div>
-			
 		</div>
-</section>
+	</section>
+
+	{% for service in collections.services %}
+	<section id="service-{{ service.data.id }}" class="who-are-we page">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-sm-5 col-md-6">
+                    <h1>
+                        {{ service.data.title }}
+                    </h1>
+					<img src="{{ service.data.image }}" class="animated fadeInUp delay-4 img-responsive" style="max-width:100%;" alt="banner">
+                </div>
+                <div class="col-sm-7 col-md-6">
+                    {{ service.data.content | safe }}
+                </div>
+            </div>
+        </div>
+    </section>
+	{% endfor %}
 
 {% endblock content %}

@@ -84,6 +84,10 @@ span.thin {
   font-weight: 200;
 }
 
+li {
+  font-size: 20px;
+}
+
 /* line 17, ../scss/base/_base.scss */
 .page {
   padding: 60px 0;
