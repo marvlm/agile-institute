@@ -12,9 +12,12 @@
                 <h1 class="wow fadeInUp" data-wow-delay="0.6s">{{ title }}</h1>
             </div>
         </div>        
-    </div>
+    </div>	
+	</section>
+	<!-- /Services section -->
 
-		<div class="container-fluid">
+  <section id="about-us" class="about-us page">
+    		<div class="container-fluid">
 			<h1 class="section-title mb-2 h1">{{ motive }}</h1>
 			<p class="text-center text-muted h5">{{ description }}</p>
 			<div class="row mt-5">
@@ -33,28 +36,7 @@
 				
 			</div>
 			
-		</div>	
-	</section>
-	<!-- /Services section -->
-
-  <section id="about-us" class="about-us page">
-    <div class="container container-fluidwow fadeInUp" data-wow-delay="0.3s">
-        <div class="row mt-5">
-            <div class="about-wrapper">
-                {% for service in collections.services %}
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-					<div class="card">
-						<div class="card-block {{ service.data.icon }}">
-							<h3 class="card-title">{{ service.data.title }}</h3>
-							<p class="card-text">{{ service.data.description }}</p>
-							<a href="{{ service.data.url }}" title="Saber más" class="read-more" >Saber más<i class="fa fa-angle-double-right ml-2"></i></a>
-						</div>
-					</div>
-				</div>
-        {% endfor %}
-            </div>
-        </div>
-    </div>
+		</div>
 </section>
 
 {% endblock content %}
