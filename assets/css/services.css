@@ -86,11 +86,12 @@ section .section-title{
 }
 
 #what-we-do p {
-	font-size: 23px;
+	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 #what-we-do .card-title {
+  font-size: 2px;
 	font-family: 'Merienda', cursive;
 }
 
