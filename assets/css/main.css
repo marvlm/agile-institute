@@ -271,14 +271,13 @@ p {
   font-family: "Open sans", "Sans Serif";
   font-weight: 400;
   display: block;
-  color: #d44420;
+  color: #ff7500;
   margin-left: 5px;
 }
 /* line 34, ../scss/modules/_blocks.scss */
 .section-snippet span.snippet-heading {
-  text-transform: uppercase;
-  font-weight: 800;
-  color: #bbb;
+  font-weight: 500;
+  color: #fff;
   letter-spacing: 1px;
 }
 /* line 41, ../scss/modules/_blocks.scss */
@@ -519,11 +518,12 @@ p {
 
 /* line 118, ../scss/modules/_sections.scss */
 .email-us {
-  background-color: #090909;
+  background-color: #0F4C81;
 }
 /* line 121, ../scss/modules/_sections.scss */
 .email-us h1 {
   margin-bottom: 30px;
+  color: #fff;
 }
 
 /*prelooader */
