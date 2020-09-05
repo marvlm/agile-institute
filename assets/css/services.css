@@ -96,6 +96,7 @@ section .section-title{
 #what-we-do h2 {
 	color: #ff7500;
 	font-size: 28px;
+
 }
 
 #what-we-do .card-title {
@@ -112,3 +113,7 @@ section .section-title{
 	margin-bottom: 50px;
 }
 
+.service p {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
