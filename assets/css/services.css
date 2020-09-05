@@ -7,13 +7,16 @@ section{
 }
 section .section-title{
 	text-align:center;
-	color:#0F4C81;
-	margin-bottom:50px;
+	color:#fff;
+	margin-bottom: 50px;
 	font-family: 'Merienda', cursive;
+	font-size: 52px;
+    line-height: 1;
 }
+
 #what-we-do{
-	background:#ffffff;
-  background-color: #fff;
+  background:#ffffff;
+  background-color: #0F4C81;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right 100%;
@@ -92,6 +95,10 @@ section .section-title{
 
 #what-we-do .card-title {
   font-size: 28px;
-	font-family: 'Merienda', cursive;
+  font-family: 'Merienda', cursive;
+}
+
+#what-we-do .text-muted {
+	color: #fff;
 }
 
