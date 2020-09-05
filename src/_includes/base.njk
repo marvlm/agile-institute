@@ -22,7 +22,9 @@
 
             {% endblock postcontent %}
 
-            {% include "cta.njk" %}
+            {% if title != "Contáctanos" %}
+                {% include "cta.njk" %}
+            {% endif %}
 
             {% include "base/footer.njk" %}
 
