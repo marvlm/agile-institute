@@ -96,7 +96,6 @@ section .section-title{
 #what-we-do h2 {
 	color: #ff7500;
 	font-size: 28px;
-	margin-bottom: 50px;
 }
 
 #what-we-do .card-title {
@@ -106,6 +105,10 @@ section .section-title{
 
 #what-we-do .text-muted {
 	color: #fff;
+	margin-bottom: 50px;
+}
+
+#what-we-do .cards-container {
 	margin-bottom: 50px;
 }
 
