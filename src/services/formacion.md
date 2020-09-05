@@ -19,4 +19,4 @@ Experimente el más alto nivel de atención y práctica en nuestros programas de
 * <i class="fa fa-angle-double-right ml-2"></i> Agile Business Responsible Qualified
 
 <br/>
-<a href="/about/" class="btn btn-warning btn-lg" role="button" aria-pressed="true">Me interesa...</a>
+<a href="/contact/" class="btn btn-warning btn-lg" role="button" aria-pressed="true">Me interesa...</a>
