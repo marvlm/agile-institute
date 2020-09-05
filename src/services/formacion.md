@@ -11,7 +11,7 @@ Te ayudamos a convertirte en un profesional CUALIFICADO en agilidad, no certific
 
 Con cualificado queremos decir que te ayudaremos a conocer y experimentar la agilidad, más allá de un examen de certificación. 
 
-Experimente el más alto nivel de atención y práctica en nuestros programas de formación y experimenta cómo puedes contribuir a mejorar la agilidad en tu organización.
+Experimente el más alto nivel de atención y práctica en nuestros programas de formación y aprende cómo puedes contribuir a mejorar la agilidad en tu organización.
 
 * <i class="fa fa-angle-double-right ml-2"></i> Agile Fundamentals Qualified
 * <i class="fa fa-angle-double-right ml-2"></i> Agile Team Member Qualified
