@@ -117,3 +117,9 @@ section .section-title{
 	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.service h2 {
+	color: #ff7500;
+	font-size: 28px;
+
+}
