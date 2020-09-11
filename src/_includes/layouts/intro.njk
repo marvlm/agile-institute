@@ -98,7 +98,9 @@
                                         <h2>{{ step.data.title }}</h2>
                                     </a>
                                     <p>{{ step.data.description }}</p>
-                                    <a href="{{ step.data.url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Saber más</a>
+                                    {% if step.data.content|length %}
+                                        <a href="{{ step.data.url }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Saber más</a>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
