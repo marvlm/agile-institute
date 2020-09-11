@@ -1,13 +1,7 @@
----
-layout: "base.njk"
-title: "Contáctanos"
-image: "/assets/images/new_message.png"
-eleventyNavigation:
-  key: "Contacto"
-  url: "/contact/"
-  order: 4
----
 
+{% extends "base.njk" %}
+
+{% block content %}
 
 <section id="email-us" class="email-us page-top">
     <div class="container wow fadeInUp" data-wow-delay="0.3s">
@@ -42,3 +36,5 @@ eleventyNavigation:
         </div>
     </div>
 </section>
+
+{% endblock content %}
