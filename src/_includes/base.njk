@@ -3,6 +3,10 @@
 
     <head>        
         {% include "base/head.njk" %}
+
+        {% if ".com" in site.url %}
+            {% include "base/analytics.njk" %}
+        {% endif %}
     </head>
 
     <body>
