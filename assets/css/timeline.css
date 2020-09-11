@@ -15,13 +15,13 @@
     float: right;
 }
 .main-timeline .timeline-content{
-    color: #000;
+    color: #0F4C81;
     background: radial-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.5),transparent);
     text-align: center;
     min-height: 125px;
     padding: 30px 20px 30px 45px;
     border-radius: 15px;
-    border: 2px solid #000;
+    border: 2px solid #0F4C81;
     display: block;
     position: relative;
 }
@@ -44,7 +44,7 @@
 .main-timeline .timeline-icon:before,
 .main-timeline .timeline-icon:after{
     content: '';
-    background-color: #000;
+    background-color: #0F4C81;
     height: 7px;
     width: 7px;
     border-radius: 50%;
