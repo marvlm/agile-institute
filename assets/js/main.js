@@ -62,7 +62,7 @@ $(window).on("load resize", function(){
  * ================================
  * GOOGLE MAPS                    
  * ================================
- */
+
 
 
 map=new GMaps({
@@ -79,7 +79,7 @@ map.addMarker({
             content: '<span class="map-header">Ghu Ghu Headquarters</span><span class="map-address">Build-A/6, Mirpur 14 , Dhaka</span'
         }
     });
-
+ */
 
 /**
  * ================================
