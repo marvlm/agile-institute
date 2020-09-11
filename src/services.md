@@ -7,12 +7,6 @@ description: "Ofrecemos nuestros servicios a personas, organizaciones y colegas 
 description_2: "Imaginamos un mundo donde la agilidad se hace bien en todas las organizaciones, donde todos las personas y los equipos practican de manera continua y efectiva la mejora continua, y donde cada equipo se desempeña a un nivel de competencia que fluye en dirección a su propio propósito."
 description_3: "Trabaje con nosotros y logremos esta visión juntos."
 image: "/assets/images/ainstitute_services.png"
-values: [
- "Desarrollo personal, de equipos y como sus habilidades se potencian.",
- "Trabajo colaborativo y flexible para afrontar los cambios.",
- "Convergencia entre visión de empresa y de equipo.",
- "Las herramientas al servicio del equipo.",
- "Actitud de mejora continua."]
 eleventyNavigation:
   key: "Servicios"
   url: "/services/"
