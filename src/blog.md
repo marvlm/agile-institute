@@ -3,7 +3,7 @@ layout: "contact.njk"
 title: "Contáctanos"
 image: "/assets/images/new_message.png"
 eleventyNavigation:
-  key: "Contacto"
-  url: "/contact/"
-  order: 5
+  key: "Blog"
+  url: "https://agile-institute.digitalpress.blog/"
+  order: 4
 ---
