@@ -4,14 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta itemprop="description" name="description" content="{{ site.description }}" />
 
-    <!--<meta property="og:locale" content="es_ES"> 
+    <meta property="og:locale" content="es_ES"> 
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:title" content="{{ site.title_a }} {{ site.title_b }} - {{ title }}">
+    <meta property="og:title" content="{{ site.title_a }} {{ site.title_b }} {% if page.url != site.url %} - {{ title }} {% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}{%if page.image %}{{ page.image }}{% else %}/assets/img/blog/thebranch-website-snapshot.jpg{% endif %}" />
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
-    {%if page.author %}
+    <meta property="og:image" content="{{ site.url }}{%if page.image %}{{ page.image }}{% else %}assets/images/Agile-Institute.png{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title_a }} {{ site.title_b }}">
+    <meta property="og:description" content="{{ site.slogan }}">
+    <!--{%if page.author %}
     <meta property="og:type" content="article">
     <meta property="article:publisher" content="http://www.facebook.com/thebranchconf" />
     <meta property="article:author" content="{{ page.author }}" />
@@ -24,6 +24,7 @@
     <meta name="twitter:site" content="@theagileinstitute" />
     <meta name="twitter:creator" content="@marvlm">
     <meta name="twitter:card" content="{%if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.slogan }}{% endif %}"> -->
+    
     <meta name="theme-color" content="#0F4C81">
     <link rel="shortcut icon" href="{{site.url}}assets/images/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="{{site.url}}assets/images/favicon/favicon.ico" type="image/x-icon">
@@ -35,7 +36,7 @@
     <link rel="manifest" href="{{site.url}}assets/images/favicon/manifest.json" crossorigin="use-credentials">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-    <title>{{ site.title_a }} {{ site.title_b }} | {{ title }}</title>
+    <title>{{ site.title_a }} {{ site.title_b }} {% if page.url != site.url %} | {{ title }} {% endif %}</title>
 
     <!--- Links to google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800%7cRoboto+Mono:400,700%7cMerriweather:300%7cAbril+Fatface' rel='stylesheet'>
