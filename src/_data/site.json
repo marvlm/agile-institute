@@ -4,7 +4,7 @@
     "description": "Somos una Red de Profesionales entusiasmados por ayudar a trabajar de manera altamente efectiva y práctica en Agilidad.",
     "slogan": "La Agilidad es un Mundo que tienes que estar dispuesto a crear, no sólo replicar.",
     "intro_image": "assets/images/Agile-Institute.png",
-    "url": "https://agile-institute.netlify.app/",
+    "url": "https://www.agile-institute.com/",
     "baseurl": "",
     "repo": "https://github.com/marvlm/agile-institute",
     "comments": false,
@@ -14,5 +14,6 @@
     "og_locale": "es",
     "year": "2020",
     "email":"hola@agile-institute.com",
-    "g_analytics": "UA-177779424-1"
+    "g_analytics": "UA-177779424-1",
+    "image":"assets/images/favicon/android-chrome-512x512.png"
   }
