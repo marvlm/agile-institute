@@ -2,7 +2,7 @@
 layout: "layouts/about.njk" 
 title: "Quienes somos"
 motive: "Nos mueve y motiva:"
-motive_description: "Nos gusta pensar que lo que nos diferencia del resto es que somos pragmáticos y que nos preocupamos de verdad en ayudar a que nuestros clientes logren sus objetivos ."
+motive_description: "Nos gusta pensar que lo que nos diferencia del resto es que somos pragmáticos y que nos preocupamos de verdad en ayudar a que nuestros clientes logren sus objetivos."
 description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
 image: "/assets/images/ainstitute_world.png"
 values: [
