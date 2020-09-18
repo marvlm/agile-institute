@@ -34,7 +34,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{site.url}}assets/images/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="{{site.url}}assets/images/favicon/android-chrome-512x512.png">
     <link rel="manifest" href="{{site.url}}assets/images/favicon/manifest.json" crossorigin="use-credentials">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{%if page.url != "/" %}{{ page.url }}{% endif %}">
 
     <title>{{ site.title_a }}{{ site.title_b }} {% if page.url != site.url %} | {{ title }} {% endif %}</title>
 
