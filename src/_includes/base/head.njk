@@ -7,9 +7,9 @@
     <meta property="og:locale" content="es_ES"> 
     <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:title" content="{{ site.title_a }}{{ site.title_b }} {% if page.url != site.url %} - {{ title }} {% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}{%if page.image %}{{ page.image }}{% else %}{{ s.image }}{% endif %}" />
-    <meta property="og:site_name" content="{{ site.title_a }}{{ site.title_b }}">
+    <meta property="og:url" content="{{ site.url }}{%if page.url != "/" %}{{ page.url }}{% endif %}">
+    <meta property="og:image" content="{{ site.url }}{%if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title_a }}{{ site.title_b }}"> 
     <meta property="og:description" content="{{ site.slogan }}">
     <!--{%if page.author %}
     <meta property="og:type" content="article">
@@ -34,7 +34,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{site.url}}assets/images/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="{{site.url}}assets/images/favicon/android-chrome-512x512.png">
     <link rel="manifest" href="{{site.url}}assets/images/favicon/manifest.json" crossorigin="use-credentials">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{%if page.url != "/" %}{{ page.url }}{% endif %}">
 
     <title>{{ site.title_a }}{{ site.title_b }} {% if page.url != site.url %} | {{ title }} {% endif %}</title>
 
