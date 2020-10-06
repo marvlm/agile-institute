@@ -1,15 +1,10 @@
 {
-    "title_a": "Agile ",
-    "title_b": "Institute",
+    "title_a": "La Ruta ",
+    "title_b": "Ágil",
     "description": "Somos una Red de Profesionales entusiasmados por ayudar a trabajar de manera altamente efectiva y práctica en Agilidad.",
     "slogan": "La Agilidad es un Mundo que tienes que estar dispuesto a crear, no sólo replicar.",
-<<<<<<< HEAD
     "intro_image": "assets/images/Agile-Institute.png",
-    "url": "https://agile-institute.com/",
-=======
-    "url": "https://www.agile-institute.com/",
-    "image":"assets/images/logo.png",
->>>>>>> 7f75474a9d048838f8aaf551b43fcf15a7bb2971
+    "url": "https://larutaagil.com/",
     "baseurl": "",
     "repo": "https://github.com/marvlm/agile-institute",
     "comments": false,
@@ -18,6 +13,6 @@
     },
     "og_locale": "es",
     "year": "2020",
-    "email":"hola@agile-institute.com",
+    "email":"camina@larutaagil.com",
     "g_analytics": "UA-177779424-1"
   }
