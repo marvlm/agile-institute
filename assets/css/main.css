@@ -107,7 +107,7 @@ h1 {
 
 /* line 31, ../scss/base/_base.scss */
 h2 {
-  font-family: 'Rajdhani', sans-serif; /*'Montserrat', sans-serif;*/
+  font-family: 'Comfortaa', cursive; /*'Montserrat', sans-serif;*/
   font-size: 24px;
   font-weight: 800;
   line-height: 1.5;
@@ -162,7 +162,7 @@ p {
 }
 /* line 19, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand span.thin {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 /* line 24, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle {
@@ -217,7 +217,7 @@ p {
 /* line 1, ../scss/layout/_footer.scss */
 .footer {
   background-color: #0F4C81;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 14px;
   color:#fff;
 }
@@ -339,7 +339,7 @@ p {
 /* line 81, ../scss/modules/_blocks.scss */
 .team-member-desc-heading h4 {
   margin-bottom: 10px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 /* line 85, ../scss/modules/_blocks.scss */
 .team-member-desc-heading span {
@@ -357,7 +357,7 @@ p {
 
 /* line 1, ../scss/modules/_buttons.scss */
 .custom-button {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Comfortaa', cursive;
   border-radius: 0;
   height: 60px;
   background-color: #ff7500;
@@ -473,7 +473,7 @@ p {
 }
 
 .about-heading span {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 /*about-us*/
@@ -820,7 +820,7 @@ table tr td:first-of-type {
 
   /* line 9, ../scss/layout/responsive/_tablet.scss */
   h2 {
-    font-family: 'Rajdhani', sans-serif; /*"Open sans", "Sans Serif";*/
+    font-family: 'Comfortaa', cursive; /*"Open sans", "Sans Serif";*/
     font-size: 26px;
     font-weight: 800;
     line-height: 1.5;
@@ -965,7 +965,7 @@ table tr td:first-of-type {
 }
 
 #footer span.thin {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 #footer span.name {
