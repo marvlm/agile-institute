@@ -3,7 +3,7 @@ layout: "layouts/about.njk"
 title: "Quienes somos"
 motive: "Nos mueve y motiva:"
 motive_description: "Nos gusta pensar que lo que nos diferencia del resto es que somos pragmáticos y que nos preocupamos de verdad en ayudar a que nuestros clientes logren sus objetivos."
-description: "Agile Institute es una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
+description: "Somos una red de profesionales, que forma y acompaña a personas y empresas en procesos de aprendizaje y transformación digital." 
 image: "/assets/images/ainstitute_world.png"
 values: [
  "Desarrollo personal, de equipos y como sus habilidades se potencian.",
@@ -17,7 +17,7 @@ eleventyNavigation:
   order: 2
 ---
 
-Agile Institute es una red de profesionales, concebidos por el objetivo de trabajar con personas y organizaciones que se encuentran en constante búsqueda de evolución y aprender a ser mejores.
+Somos una red de profesionales, concebidos por el objetivo de trabajar con personas y organizaciones que se encuentran en constante búsqueda de evolución y aprender a ser mejores.
 
 Pensando siempre en las aplicaciones prácticas y no sólo en el conocimiento teórico que se ofrecen con las certificaciones que existen actualmente en el mercado, acompañamos a personas y organizaciones a través de rutas ágiles de transformación que les lleven a cumplir sus objetivos y potenciar sus resultados. 
 
